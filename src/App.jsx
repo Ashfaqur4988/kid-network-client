@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Signup from "./pages/SignUp";
+import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import { useEffect } from "react";
 import { useAuthStore } from "./store/useAuthStore";
